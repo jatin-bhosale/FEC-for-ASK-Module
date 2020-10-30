@@ -1,7 +1,7 @@
 /*
  * Author : Jatin Bhosale
  * Time created : 24-10-2020 09:45:35
- * Github Link : 
+ * Github Link : https://github.com/jatin-bhosale/FEC-for-ASK-Module
  * 
  * Title : FEC Encoding using rs8.h library and transmission using ASK Module 
  * 

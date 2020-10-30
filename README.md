@@ -7,7 +7,7 @@ Files:
 2. rs8_receiver
 
 Library used : rs8
-Github link : <https://www.github.com/fsphil/ssdv/tree/master/> \n
+Github link : <https://www.github.com/fsphil/ssdv/tree/master/> <br>
 Created by Philip Heron <phil@sanslogic.co.uk>
 
 ## Getting Started

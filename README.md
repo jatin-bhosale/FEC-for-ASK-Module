@@ -10,6 +10,12 @@ Library used : rs8
 Github link : <https://www.github.com/fsphil/ssdv/tree/master/> 
 Created by Philip Heron <phil@sanslogic.co.uk>
 
+## Getting Started
+1. Download the file in zip format
+2. In Arduino IDE, goto `Sketch` >> `Include Library` >> `Add .zip library`
+3. Select downloaded .zip file
+4. Go to `File` >> `Examples` >> `FEC-for-ASK-Module` and choose the required program.
+
 ## Use of rs8 library
 The rs8 library is a Reed Solomon Forward Error Correction Library that encodes the message with 32 extra bits for error detection and correction and decoded the message in case some bits are corrupted.
 

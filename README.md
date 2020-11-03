@@ -39,8 +39,8 @@ Example : `decode_rs_8(&data[4],0,0,223-64);`
 
 It takes 4 parameters:
 1. address of start bit of received message
-2. For digital application, this bit should be zero
-3. For digital application, this bit should be zero
+2. clock-bit where signal fading occurred. For digital application, this bit should be zero
+3. no of times signal fading occurred. For digital application, this bit should be zero
 4. 223 - length of expected original message
 
 

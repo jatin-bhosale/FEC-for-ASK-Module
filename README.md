@@ -17,20 +17,20 @@ Created by Philip Heron <phil@sanslogic.co.uk>
 4. Go to `File` >> `Examples` >> `FEC-for-ASK-Module` and choose the required program.
 
 ## Use of rs8 library
-The rs8 library is a Reed Solomon Forward Error Correction Library that encodes the message with 32 extra bits for error detection and correction and decoded the message in case some bits are corrupted.
+The rs8 library is a Reed Solomon Forward Error Correction Library that encodes the message with 32 extra bytes for error detection and correction and correctly decodes the message in case some bytes are corrupted.
 
 ### Functions of rs8 library
 
 #### `encode_rs_8()`
-This function encodes the original message with 32 extra bits at the end for error correction
+This function encodes the original message with 32 extra bytes at the end for error correction
 
 Example : `encode_rs_8(&data[4],&data[68],223-64);`
 
 It takes 3 parameters:
-1. address of start bit of message
-2. address of start bit to store correction code (can also be a different variable)
+1. address of start byte of message
+2. address of start byte to store correction code (can also be a different variable)
 3. 223 - length of message
-    Here 223 signifies maximum data length 255, wherein 32 bits are reserved for correction code
+    Here 223 signifies maximum data length 255, wherein 32 bytes are reserved for correction code
     
 #### `decode_rs_8()`
 This function decodes the received encoded message and loads the corrected message into the specified memory location
@@ -38,9 +38,9 @@ This function decodes the received encoded message and loads the corrected messa
 Example : `decode_rs_8(&data[4],0,0,223-64);`
 
 It takes 4 parameters:
-1. address of start bit of received message
-2. clock-bit where signal fading occurred. For digital application, this bit should be zero
-3. no of times signal fading occurred. For digital application, this bit should be zero
+1. address of start byte of received message
+2. clock-bit where signal fading occurred. For digital application, this byte should be zero
+3. no of times signal fading occurred. For digital application, this byte should be zero
 4. 223 - length of expected original message
 
 

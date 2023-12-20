@@ -1,4 +1,4 @@
-/* General purpose Reed-Solomon codec for 8-bit symbols or less
+/* General purpose Reed-Solomon codec for 8-bit symbols or lessasdasd  sdfsf
  * Copyright 2003 Phil Karn, KA9Q
  * May be used under the terms of the GNU Lesser General Public License (LGPL)
  *
